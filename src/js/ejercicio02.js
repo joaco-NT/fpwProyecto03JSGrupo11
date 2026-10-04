@@ -1,16 +1,11 @@
-const boton = document.querySelector("#botonColor");
+import { cambiarColorFondo } from '../services/services02.js';
 
-let colorActual = "lightblue";
+const boton = document.querySelector("#botonColor");
 
 boton.addEventListener("click", () => {
 
-    if (colorActual === "lightblue") {
-        document.body.style.backgroundColor = "lightgreen";
-        colorActual = "lightgreen";
-    } else {
-        document.body.style.backgroundColor = "lightblue";
-        colorActual = "lightblue";
-    }
+    cambiarColorFondo();
 
-    console.log("El color de fondo cambió a: " + colorActual);
+    console.log("El color de fondo cambió");
+
 });

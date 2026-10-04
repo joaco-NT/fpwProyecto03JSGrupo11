@@ -19,7 +19,12 @@
     gap: 30px;
     padding-bottom: 40px;
 }
-
+/*===========================
+COLORES DEL FONDO EJERCICIO 02
+===========================*/
+.fondo-verde {
+    background: lightgreen;
+}
 
 /* =========================
    NAVEGACION
